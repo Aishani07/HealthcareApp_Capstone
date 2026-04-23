@@ -3,7 +3,6 @@ import {
   cancelAppointment,
   deleteAppointment,
 } from "../features/appointments/appointmentSlice";
-
 function Dashboard() {
   const appointments = useSelector((state) => state.appointments);
   const dispatch = useDispatch();
